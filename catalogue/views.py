@@ -12,6 +12,14 @@ from django.contrib.auth.decorators import login_required
 # include optional login_url parameter to redirect user to login page
 @login_required(login_url='user_auth:login')
 def index(request):
+    """The view index function displays the home page for Cold Meats.
+
+    Args:
+        request (HttpRequest): The HTTP request object.
+
+    Returns:
+        HttpResponse: The HTTP response object.
+    """
     # comment out HttpResponse once confirmed the page shows
     #return HttpResponse("<h2>Catalogue</h2>")
     # Create a template for your app that will display the catalogue
