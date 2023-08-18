@@ -1,3 +1,5 @@
+    """Import the modules render, HttpResponse, ListView, DetailView, Post, and login_required.
+    """
 from django.shortcuts import render
 # import HttpResponse
 from django.http import HttpResponse
@@ -23,6 +25,14 @@ from django.contrib.auth.decorators import login_required
 # include optional login_url parameter to redirect user to login page
 @login_required(login_url='user_auth:login')
 def post_list(ListView):
+    """View function for listing blog posts
+
+    :param ListView: The ListView instance.
+    :type ListView: django.views.generic.ListView
+
+    :return: The rendered template blog.html.
+    :rtype: django.http.HttpResponse
+    """
     model = Post
     template = 'blog.html'
     return render(ListView, template)
@@ -30,6 +40,14 @@ def post_list(ListView):
 # view for individual blog posts
 @login_required(login_url='user_auth:login') 
 def post_detail(DetailView):
+    """View function for displaying an individual blog post.
+
+    :param DetailView: The DetailView instance.
+    :type DetailView: django.views.generic.DetailView
+
+    :return: The rendered template post.html.
+    :rtype: django.http.HttpResponse
+    """
     model = Post
     template = 'post.html'
     return render(DetailView, template)
