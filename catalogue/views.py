@@ -1,3 +1,6 @@
+    """Import the modules for render, HttpResponse and login_required
+    
+    """
 from django.shortcuts import render
 # import HttpResponse
 from django.http import HttpResponse
@@ -12,8 +15,19 @@ from django.contrib.auth.decorators import login_required
 # include optional login_url parameter to redirect user to login page
 @login_required(login_url='user_auth:login')
 def index(request):
+<<<<<<< Updated upstream
+=======
+    """The view index function displays the home page for Cold Meats.
+
+    :param request: The HTTP request object.
+    :type request: HttpRequest
+    :return: The rendered HTTP response object.
+    :rtype: str
+    """
+>>>>>>> Stashed changes
     # comment out HttpResponse once confirmed the page shows
     #return HttpResponse("<h2>Catalogue</h2>")
     # Create a template for your app that will display the catalogue
     # Render your template and map a URL to it
     return render(request, "cold meats.html")
+    
