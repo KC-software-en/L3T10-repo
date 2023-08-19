@@ -18,12 +18,8 @@ sys.path.insert(0, os.path.abspath('..'))
 # The os.environ dictionary is used to access and modify the environment variables in Python. 
 # set the DJANGO_SETTINGS_MODULE environment variable to the value 'Your_project_name.settings'. 
 # This variable specifies the settings module for the Django project.
-# set the settings module for the project followed by each app in the project
+# set the settings module for the project 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'Django_website.settings'
-os.environ['DJANGO_SETTINGS_MODULE'] = 'blog.settings'
-os.environ['DJANGO_SETTINGS_MODULE'] = 'catalogue.settings'
-os.environ['DJANGO_SETTINGS_MODULE'] = 'polls.settings'
-os.environ['DJANGO_SETTINGS_MODULE'] = 'user_auth.settings'
 # the django.setup() function call initializes the Django settings and sets up the necessary configurations for the project. 
 # This function needs to be called before using any Django functionality
 django.setup()
@@ -38,10 +34,12 @@ release = '00.00.01'
 
 # configure our documentation generator
 # edit extensions
+# include autosummary extension that automatically generates documentation from docstrings
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.napoleon',
+    'sphinx.ext.autosummary',
     ]
 
 templates_path = ['_templates']

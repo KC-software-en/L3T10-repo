@@ -1,5 +1,5 @@
-    """Import the modules render, HttpResponse, ListView, DetailView, Post, and login_required.
-    """
+"""Import the modules render, HttpResponse, ListView, DetailView, Post, and login_required.
+"""
 from django.shortcuts import render
 # import HttpResponse
 from django.http import HttpResponse
