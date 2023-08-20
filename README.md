@@ -65,11 +65,12 @@ In the Command Prompt:
 + cd to project root directory and run the command: python manage.py runserver
 + *Note: Django Secret Key and Database Admin login is in the secret.txt in the Dropbox*
 
-![Login](screenshots/login.png =250x)
+![Login](screenshots/login.png)
+<img src="screenshots/login.png" alt="Login" width="250"/>
 
-![Register](screenshots/register.png =250x)
+![Register](screenshots/register.png)
 
-![Catalogue](screenshots/catalogue.png =250x)
+![Catalogue](screenshots/catalogue.png | 250x)
 
 ![Reviews](screenshots/reviews.png =250x)
 
