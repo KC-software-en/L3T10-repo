@@ -19,8 +19,9 @@ Cold Meats
 
 # Installation section
 *tell other users how to install your project locally*
+
 Outline the steps necessary to build and run your application with venv and Docker:
-Create a Virtual Environment:
+
 1. Open the Command Prompt
 1. Create a Virtual Environment:
     + in Command Prompt (powershell)
@@ -66,23 +67,22 @@ In the Command Prompt:
 + *Note: Django Secret Key and Database Admin login is in the secret.txt in the Dropbox*
 
 ![Login](screenshots/login.png)
-<img src="screenshots/login.png" alt="Login" width="250"/>
 
 ![Register](screenshots/register.png)
 
-![Catalogue](screenshots/catalogue.png | 250x)
+![Catalogue](screenshots/catalogue.png)
 
-![Reviews](screenshots/reviews.png =250x)
+![Reviews](screenshots/reviews.png)
 
-![Subscribe](screenshots/subscribe.png =250x)
+![Subscribe](screenshots/subscribe.png)
 
-![Blog-post](screenshots/blog_post.png =250x)
+![Blog-post](screenshots/blog_post.png)
 
-![Poll](screenshots/poll.png =250x)
+![Poll](screenshots/poll.png)
 
 # Credits
 *highlights and links to the authors of your project if the project has been created by more than one person*
-@KC-software-en
++ @KC-software-en
 
 # Add a URL to your GitHub repository
 
