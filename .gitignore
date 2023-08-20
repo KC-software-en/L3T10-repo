@@ -1,3 +1,7 @@
+# exclude any venv or virtualenv files from your repo
+# prevent the virtual environment from being committed and pushed to the remote repository
+Virtual_env/
+
 # Django #
 *.log
 *.pot
