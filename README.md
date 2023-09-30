@@ -2,7 +2,17 @@
 Cold Meats
 
 # Project description
-*importance of your project, and what it does*
+*Importance of the project*
+
+Introducing the Django project I built during my bootcamp 🚀. I'm thrilled to share this hands-on experience where I delved into the world of web development and created a dynamic platform that's both engaging and user-friendly. The project features database-driven components that require user login and authentication for access, making it a secure and personalized space for meat enthusiasts.
+
+🧑‍💻Here's what you can explore on the Cold Meats Website:
+[1]Catalogue: Dive into a mouthwatering assortment of cold meats, all neatly categorised and easily accessible once you log in.
+[2] Blog: Stay updated with the latest meaty news, recipes, and industry insights in our blog section.
+[3] Polls: Cast your votes and see what fellow meat aficionados have to say about your favorite cuts and flavours.
+
+*What the project does*
+
 + Create a Django application that can be used by the business Cold Meats and its clientelle. The program should allow the user to:
     + register a new user
     + login a user    
@@ -18,7 +28,8 @@ Cold Meats
 + Add polls and choices for each poll
 
 # Installation section
-*tell other users how to install your project locally*
+*Tell other users how to install your project locally*
+
 Outline the steps necessary to build and run your application with venv and Docker:
 Create a Virtual Environment:
 1. Open the Command Prompt
@@ -37,11 +48,24 @@ Create a Virtual Environment:
    
 1. Download Python to run the program @ https://www.python.org/downloads/
 
+*Note: Django Secret Key and Database Admin login is in the .env*
+You will need to set up your custom Secret Key before running the website
+1. Clone this repository
+1. Create a `.env` file in the project's root directory with the following content:
+    + DJANGO_SECRET_KEY=mysecretkeygoeshere
 1. Install Packages:
     + pip install [package_name]
+    OR
+    + python -m pip install -r requirements.txt
+
+# Usage section
+*Instruct others on how to use your project after they’ve installed it*
+
+In the Command Prompt:
++ cd to project root directory and run the command: python manage.py runserver
 
 The docker image can be found at: 
-+ https://hub.docker.com/repository/docker/kcse1/django-app/general
++ https://hub.docker.com/repository/docker/kcse1/cold-meats/general
 
 Outline the steps necessary to build and run your application with venv and Docker:
 + Install Docker desktop @ https://www.docker.com/products/docker-desktop
@@ -58,12 +82,7 @@ Outline the steps necessary to build and run your application with venv and Dock
 1. Deactivate the Virtual Environment:
     + deactivate
 
-# Usage section
-*instructs others on how to use your project after they’ve installed it.*
 *Include screenshots of your project in action*
-In the Command Prompt:
-+ cd to project root directory and run the command: python manage.py runserver
-+ *Note: Django Secret Key and Database Admin login is in the secret.txt in the Dropbox*
 
 ![Login](screenshots/login.png =250x)
 
@@ -77,10 +96,14 @@ In the Command Prompt:
 
 ![Blog-post](screenshots/blog_post.png =250x)
 
+![Poll](screenshots/poll1.png =250x)
+
 ![Poll](screenshots/poll.png =250x)
 
+![Poll](screenshots/poll3.png =250x)
+
 # Credits
-*highlights and links to the authors of your project if the project has been created by more than one person*
+*Highlights and links to the authors of your project if the project has been created by more than one person*
 @KC-software-en
 
 # Add a URL to your GitHub repository
