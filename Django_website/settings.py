@@ -23,7 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 ##############################################################
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = removed and placed in a text file in dropbox
+# SECRET_KEY = removed and stored as an environment variable
+# retrieve it
+# Create a .env file in your project's root directory and add your SECRET_KEY there.
+# You should also add this file to your .gitignore to ensure it's not committed to your repository
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 ################################################################
 
 # SECURITY WARNING: don't run with debug turned on in production!
