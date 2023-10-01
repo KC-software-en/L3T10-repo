@@ -31,7 +31,7 @@ Introducing the Django project I built during my bootcamp 🚀. I'm thrilled to 
 *Tell other users how to install your project locally*
 
 Outline the steps necessary to build and run your application with venv and Docker:
-Create a Virtual Environment:
+
 1. Open the Command Prompt
 1. Create a Virtual Environment:
     + in Command Prompt (powershell)
@@ -84,17 +84,17 @@ Outline the steps necessary to build and run your application with venv and Dock
 
 *Include screenshots of your project in action*
 
-![Login](screenshots/login.png =250x)
+![Login](screenshots/login.png)
 
-![Register](screenshots/register.png =250x)
+![Register](screenshots/register.png)
 
-![Catalogue](screenshots/catalogue.png =250x)
+![Catalogue](screenshots/catalogue.png)
 
-![Reviews](screenshots/reviews.png =250x)
+![Reviews](screenshots/reviews.png)
 
-![Subscribe](screenshots/subscribe.png =250x)
+![Subscribe](screenshots/subscribe.png)
 
-![Blog-post](screenshots/blog_post.png =250x)
+![Blog-post](screenshots/blog_post.png)
 
 ![Poll](screenshots/poll1.png =250x)
 
