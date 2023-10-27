@@ -7,8 +7,11 @@ Cold Meats
 Introducing the Django project I built during my bootcamp 🚀. I'm thrilled to share this hands-on experience where I delved into the world of web development and created a dynamic platform that's both engaging and user-friendly. The project features database-driven components that require user login and authentication for access, making it a secure and personalized space for meat enthusiasts.
 
 🧑‍💻Here's what you can explore on the Cold Meats Website:
+
 [1]Catalogue: Dive into a mouthwatering assortment of cold meats, all neatly categorised and easily accessible once you log in.
+
 [2] Blog: Stay updated with the latest meaty news, recipes, and industry insights in our blog section.
+
 [3] Polls: Cast your votes and see what fellow meat aficionados have to say about your favorite cuts and flavours.
 
 *What the project does*
@@ -59,6 +62,7 @@ You will need to set up your custom Secret Key before running the website
     + DJANGO_SECRET_KEY=mysecretkeygoeshere
 1. Install Packages:
     + pip install [package_name]
+    
     OR
     + python -m pip install -r requirements.txt
 
@@ -128,6 +132,7 @@ Outline the steps necessary to build and run your application with venv and Dock
 
 # Credits
 *Highlights and links to the authors of your project if the project has been created by more than one person*
+
 @KC-software-en
 
 # Add a URL to your GitHub repository
