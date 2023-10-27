@@ -40,13 +40,17 @@ Outline the steps necessary to build and run your application with venv and Dock
     + create virtual env: virtualenv my_django
     + you will see Scripts in my_django
     + change to Command Prompt (admin) 
-    + python -m venv my_django
+    
 1. Activate the Virtual Environment:
     + On Windows (Command Prompt):
         + cd to path to Scripts "C:\Users\kisha\Dropbox\KC22070003466\3 - Advanced Software Engineering\L3T10 - Capstone Project - Consolidation\Capstone_Project\Virtual_env\my_django\Scripts"
         + activate.bat
    
 1. Download Python to run the program @ https://www.python.org/downloads/
+1. Run the Python Installer
+1. Check the Box for "Add Python to PATH"
+In cmd:
+1. Verify pip installation: `pip --version`
 
 *Note: Django Secret Key and Database Admin login is in the .env*
 You will need to set up your custom Secret Key before running the website
@@ -74,13 +78,18 @@ Outline the steps necessary to build and run your application with venv and Dock
     + docker run hello-world
     + docker build -t django-app . (Notice the '/' left off at the end)    
     + docker run -d -p 80:80 django-app    
-    + docker tag django-app [user]]/[repo]]
+    + docker tag django-app [user]]/[repo]]:[tag-name]
     + docker login
-    + docker push [user]]/[repo]]
+    + docker push [user]]/[repo]]:[tag-name]
     + docker run -d -p 80:80 [user]]/[repo]]
 
 1. Deactivate the Virtual Environment:
     + deactivate
+
+1. View user-friendly software documentation generated with Sphinx
+    + docstrings were created for a few functions, classes and modules/scripts
+    + locate the HTML file in the _build/html folder
+    + open index.html file in a browser
 
 *Include screenshots of your project in action*
 
@@ -96,11 +105,26 @@ Outline the steps necessary to build and run your application with venv and Dock
 
 ![Blog-post](screenshots/blog_post.png)
 
-![Poll](screenshots/poll1.png =250x)
+![Poll](screenshots/poll1.png)
 
-![Poll](screenshots/poll.png =250x)
+![Poll](screenshots/poll.png)
 
-![Poll](screenshots/poll3.png =250x)
+![Poll](screenshots/poll3.png)
+
+![Sphinx1](screenshots/sphinx_software_doc1.png)
+![Screenshot](image_url =250x)
+
+![Sphinx2](screenshots/sphinx_software_doc2.png)
+![Screenshot](image_url =250x)
+
+![Sphinx3](screenshots/sphinx_software_doc3.png)
+![Screenshot](image_url =250x)
+
+![Sphinx4](screenshots/sphinx_software_doc4.png)
+![Screenshot](image_url =250x)
+
+![Sphinx5](screenshots/sphinx_software_doc5.png)
+![Screenshot](image_url =250x)
 
 # Credits
 *Highlights and links to the authors of your project if the project has been created by more than one person*
