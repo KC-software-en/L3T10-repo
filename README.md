@@ -90,7 +90,7 @@ Outline the steps necessary to build and run your application with venv and Dock
 1. Deactivate the Virtual Environment:
     + deactivate
 
-1. View user-friendly software documentation generated with Sphinx
+*View user-friendly software documentation generated with Sphinx*
     + docstrings were created for a few functions, classes and modules/scripts
     + locate the HTML file in the _build/html folder
     + open index.html file in a browser
@@ -116,19 +116,14 @@ Outline the steps necessary to build and run your application with venv and Dock
 ![Poll](screenshots/poll3.png)
 
 ![Sphinx1](screenshots/sphinx_software_doc1.png)
-![Screenshot](image_url =250x)
 
 ![Sphinx2](screenshots/sphinx_software_doc2.png)
-![Screenshot](image_url =250x)
 
 ![Sphinx3](screenshots/sphinx_software_doc3.png)
-![Screenshot](image_url =250x)
 
 ![Sphinx4](screenshots/sphinx_software_doc4.png)
-![Screenshot](image_url =250x)
 
 ![Sphinx5](screenshots/sphinx_software_doc5.png)
-![Screenshot](image_url =250x)
 
 # Credits
 *Highlights and links to the authors of your project if the project has been created by more than one person*
