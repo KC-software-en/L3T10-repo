@@ -91,9 +91,10 @@ Outline the steps necessary to build and run your application with venv and Dock
     + deactivate
 
 *View user-friendly software documentation generated with Sphinx*
-    + docstrings were created for a few functions, classes and modules/scripts
-    + locate the HTML file in the _build/html folder
-    + open index.html file in a browser
+
++ docstrings were created for a few functions, classes and modules/scripts
++ locate the HTML file in the _build/html folder
++ open index.html file in a browser
 
 *Include screenshots of your project in action*
 
@@ -115,15 +116,15 @@ Outline the steps necessary to build and run your application with venv and Dock
 
 ![Poll](screenshots/poll3.png)
 
-![Sphinx1](screenshots/sphinx_software_doc1.png)
+![Sphinx1](screenshots/sphinx_software_doc1.png = 250x)
 
-![Sphinx2](screenshots/sphinx_software_doc2.png)
+![Sphinx2](screenshots/sphinx_software_doc2.png = 250x)
 
-![Sphinx3](screenshots/sphinx_software_doc3.png)
+![Sphinx3](screenshots/sphinx_software_doc3.png = 250x)
 
-![Sphinx4](screenshots/sphinx_software_doc4.png)
+![Sphinx4](screenshots/sphinx_software_doc4.png = 250x)
 
-![Sphinx5](screenshots/sphinx_software_doc5.png)
+![Sphinx5](screenshots/sphinx_software_doc5.png = 250x)
 
 # Credits
 *Highlights and links to the authors of your project if the project has been created by more than one person*
