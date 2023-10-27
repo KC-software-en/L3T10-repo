@@ -116,15 +116,15 @@ Outline the steps necessary to build and run your application with venv and Dock
 
 ![Poll](screenshots/poll3.png)
 
-![Sphinx1](screenshots/sphinx_software_doc1.png = 250x)
+![Sphinx1](screenshots/sphinx_software_doc1.png){width = 250x}
 
-![Sphinx2](screenshots/sphinx_software_doc2.png = 250x)
+![Sphinx2](screenshots/sphinx_software_doc2.png){width = 250x}
 
-![Sphinx3](screenshots/sphinx_software_doc3.png = 250x)
+![Sphinx3](screenshots/sphinx_software_doc3.png){width = 250x}
 
-![Sphinx4](screenshots/sphinx_software_doc4.png = 250x)
+![Sphinx4](screenshots/sphinx_software_doc4.png){width = 250x}
 
-![Sphinx5](screenshots/sphinx_software_doc5.png = 250x)
+![Sphinx5](screenshots/sphinx_software_doc5.png){width = 250x}
 
 # Credits
 *Highlights and links to the authors of your project if the project has been created by more than one person*
